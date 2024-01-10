@@ -98,6 +98,10 @@
     box-shadow: 5px 5px 5px 5px rgb(230, 4, 4);
 }
 
+.banner{
+    width: 100%;
+}
+
 .titulosContacto {
     display: flex;
     justify-content: center;
