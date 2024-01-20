@@ -6,8 +6,9 @@
     .iframeUno {
         border: 2px solid black;
         box-shadow: 10px 10px 10px black;
-        transition:2s;
-        &:hover{
+        transition: 2s;
+
+        &:hover {
             transform: scale(1.1);
         }
     }
@@ -15,8 +16,9 @@
     .iframeDos {
         border: 2px solid black;
         box-shadow: 10px 10px 10px black;
-        transition:2s;
-        &:hover{
+        transition: 2s;
+
+        &:hover {
             transform: scale(1.1);
         }
     }
@@ -44,15 +46,16 @@
             box-shadow: 10px 10px 10px black;
             border: 2px solid black;
             margin-top: 30px;
-            transition:2s;
-            &:hover{
+            transition: 2s;
+
+            &:hover {
                 transform: scale(1.05);
             }
         }
 
         h2 {
             text-align: center;
-            font-family:$tipografiaPrincipal;
+            font-family: $tipografiaPrincipal;
         }
 
         .contenidoLocal {
@@ -60,7 +63,7 @@
             background-color: rgb(59, 13, 13);
             box-shadow: 10px 10px 10px rgb(100, 100, 100);
             color: rgb(223, 223, 203);
-            font-family:$tipografiaPrincipal;
+            font-family: $tipografiaPrincipal;
         }
     }
 

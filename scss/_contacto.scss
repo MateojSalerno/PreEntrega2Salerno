@@ -19,8 +19,9 @@
     padding: 10px 10px 10px 10px;
     margin-bottom: 40px;
     box-shadow: 5px 5px 5px 5px rgb(230, 4, 4);
-    transition:2s;
-    &:hover{
+    transition: 2s;
+
+    &:hover {
         transform: scale(1.01);
     }
 }

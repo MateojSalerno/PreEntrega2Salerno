@@ -8,15 +8,16 @@
     grid-template-rows: 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 30px;
-    
+
 
     .imagenesProductos {
         margin-left: 40px;
         margin-right: 40px;
         border: 5px solid black;
         box-shadow: 10px 10px 10px black;
-        transition:2s;
-        &:hover{
+        transition: 2s;
+
+        &:hover {
             transform: scale(1.02);
         }
 

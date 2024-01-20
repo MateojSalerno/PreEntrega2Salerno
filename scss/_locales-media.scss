@@ -14,10 +14,12 @@
             margin: 20px 20px 20px 20px;
 
             iframe {
-                width: map-get($tamanos, alto);;
+                width: map-get($tamanos, alto);
+                ;
             }
         }
     }
+
     .banner {
         img {
             width: map-get($tamanos, alto);
