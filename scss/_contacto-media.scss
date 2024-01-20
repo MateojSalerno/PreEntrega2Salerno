@@ -1,0 +1,27 @@
+@media (max-width:480px){
+    .titulosContacto{
+        text-align: center;
+        h2{
+            font-size: 35px;
+        }
+    }
+    
+    .parrafoContacto{
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .formulario{
+        margin-left: 15px;
+        margin-right: 15px;
+        box-shadow: 3px 3px 10px red;
+    }
+    
+    .bannerC{
+        .bannerT{
+            width: map-get($tamanos, alto);
+            margin-top: 10px;
+
+        }
+    }
+}

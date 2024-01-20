@@ -1,0 +1,26 @@
+@media (max-width:480px){
+    .principalNosotros {
+        padding-right: 10px;
+        padding-left: 10px;
+    
+        img {
+            width: map-get($tamanos, alto);
+        }
+    }
+    
+    .contenedorGridSN {
+        display: block;
+        padding-right: 15px;
+        padding-left: 15px;
+    
+        .imagenesSN {
+            width: 100%;
+            padding-bottom: 10px;
+    
+            img {
+                width: map-get($tamanos, alto);
+            }
+        }
+    }
+    
+}

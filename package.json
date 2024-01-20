@@ -1,0 +1,11 @@
+{
+  "name": "preentrega2salerno",
+  "version": "1.0.0",
+  "description": "proyecto de coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mateo Salerno",
+  "license": "ISC"
+}

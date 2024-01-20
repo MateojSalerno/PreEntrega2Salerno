@@ -1,0 +1,24 @@
+@media (max-width:480px){
+    footer {
+        .footerContenido {
+            display: block;
+
+            .logoFooter {
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+            }
+
+            .redesFooter {
+                margin-top: 20px;
+                width: map-get($tamanos, alto);
+                text-align: center;
+            }
+
+            .textoFooter {
+                margin-top: 40px;
+                width: map-get($tamanos, alto);
+            }
+        }
+    }
+}

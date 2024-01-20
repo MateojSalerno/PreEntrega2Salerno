@@ -1,0 +1,45 @@
+.carruselF {
+    @include flexbox;
+
+    .carrusel {
+        width: 1200px;
+        margin-top: 30px;
+        border: 5px solid black;
+        transition:2s;
+        &:hover{
+            transform: scale(1.02);
+        }
+    }
+
+}
+
+.fotosIndex {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 10px;
+
+    .fotoA {
+        text-align: center;
+        border: 5px solid black;
+        margin-left: 50px;
+        margin-right: 50px;
+        transition:2s;
+        &:hover{
+            transform: scale(1.1);
+        }
+
+        img {
+            width: map-get($tamanos, alto);
+        }
+
+        p {
+            text-align: center;
+            padding-left: 60px;
+            padding-right: 60px;
+            font-size: 16px;
+        }
+    }
+}

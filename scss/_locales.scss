@@ -1,0 +1,70 @@
+.iframes {
+    @include flexbox;
+    column-gap: 80px;
+    margin-top: 30px;
+
+    .iframeUno {
+        border: 2px solid black;
+        box-shadow: 10px 10px 10px black;
+        transition:2s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    .iframeDos {
+        border: 2px solid black;
+        box-shadow: 10px 10px 10px black;
+        transition:2s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+.banner {
+    margin-top: 40px;
+
+    img {
+        width: map-get($tamanos, alto);
+        height: 200px;
+        border: 5px solid black;
+    }
+}
+
+.fotosLocales {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    text-align: center;
+
+    .fotoLocalUno {
+        img {
+            width: 600px;
+            box-shadow: 10px 10px 10px black;
+            border: 2px solid black;
+            margin-top: 30px;
+            transition:2s;
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+
+        h2 {
+            text-align: center;
+            font-family:$tipografiaPrincipal;
+        }
+
+        .contenidoLocal {
+            border: 2px solid black;
+            background-color: rgb(59, 13, 13);
+            box-shadow: 10px 10px 10px rgb(100, 100, 100);
+            color: rgb(223, 223, 203);
+            font-family:$tipografiaPrincipal;
+        }
+    }
+
+    .fotoLocalDos {
+        @extend .fotoLocalUno
+    }
+}
