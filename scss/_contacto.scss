@@ -6,7 +6,7 @@
 }
 
 .parrafoContacto {
-    @include flexbox;
+    @include flexbox (center,center);
     font-family: $tipografiaPrincipal;
     font-size: 18px;
 }

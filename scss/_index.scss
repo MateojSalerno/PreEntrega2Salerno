@@ -1,5 +1,5 @@
 .carruselF {
-    @include flexbox;
+    @include flexbox (center,center);
 
     .carrusel {
         width: 1200px;

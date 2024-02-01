@@ -6,7 +6,7 @@
 }
 
 .titulosGenerales{
-    @include flexbox;
+    @include flexbox (center,center);
     margin-top: 50px;
     margin-bottom: 30px;
     text-decoration: underline;

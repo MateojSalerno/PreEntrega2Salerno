@@ -1,5 +1,5 @@
 .iframes {
-    @include flexbox;
+    @include flexbox (center,center);
     column-gap: 80px;
     margin-top: 30px;
 

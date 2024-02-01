@@ -1,5 +1,5 @@
 .principalNosotros {
-    @include flexbox;
+    @include flexbox (center,center);
     margin-top: 20px;
 
     img {
