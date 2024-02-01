@@ -1,0 +1,185 @@
+@media (max-width:480px) {
+
+    .carruselF {
+        margin: 20px 20px 20px 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulosGenerales{
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .fotosIndex {
+        display: block;
+
+        .fotoA {
+            margin-bottom: 20px;
+        }
+    }
+
+    .titulosContacto {
+        text-align: center;
+
+        h1 {
+            font-size: 35px;
+        }
+    }
+
+    .parrafoContacto {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .formulario {
+        margin-left: 15px;
+        margin-right: 15px;
+        box-shadow: 3px 3px 10px red;
+    }
+
+    .bannerC {
+        .bannerT {
+            width: map-get($tamanos, alto);
+            margin-top: 10px;
+
+        }
+    }
+
+    .principalNosotros {
+        padding-right: 10px;
+        padding-left: 10px;
+
+        img {
+            width: map-get($tamanos, alto);
+        }
+    }
+
+    .titulosGenerales{
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .contenedorGridSN {
+        display: block;
+        padding-right: 15px;
+        padding-left: 15px;
+
+        .imagenesSN {
+            width: 100%;
+            padding-bottom: 10px;
+
+            img {
+                width: map-get($tamanos, alto);
+            }
+        }
+    }
+
+    .titulosGenerales{
+        h1{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+
+    .contenedorProductos {
+        display: block;
+        align-content: center;
+
+        .imagenesProductos {
+            margin-bottom: 20px;
+
+            p {
+                font-size: 15px;
+                padding-top: 5px;
+            }
+        }
+    }
+
+    .titulosGenerales{
+        h1{
+            display: flex;
+            justify-content: center;
+            font-size: 50px;
+        }
+    }
+
+    .iframes {
+        display: block;
+
+        .iframeUno {
+            margin: 20px 20px 20px 20px;
+
+            iframe {
+                width: 100%;
+            }
+        }
+
+        .iframeDos {
+            margin: 20px 20px 20px 20px;
+
+            iframe {
+                width: map-get($tamanos, alto);
+                ;
+            }
+        }
+    }
+
+    .banner {
+        img {
+            width: map-get($tamanos, alto);
+            height: 50%;
+        }
+    }
+
+    .fotosLocales {
+        width: map-get($tamanos, alto);
+        display: block;
+
+        .fotoLocalUno {
+            margin-left: 15px;
+            margin-right: 15px;
+
+            img {
+                width: map-get($tamanos, alto);
+            }
+
+            .contenidoLocal {
+                margin-top: 30px;
+            }
+
+        }
+
+        .fotoLocalDos {
+            @extend .fotoLocalUno
+        }
+
+    }
+
+    footer {
+        .footerContenido {
+            display: block;
+
+            .logoFooter {
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+            }
+
+            .redesFooter {
+                margin-top: 20px;
+                width: map-get($tamanos, alto);
+                text-align: center;
+            }
+
+            .textoFooter {
+                margin-top: 40px;
+                width: map-get($tamanos, alto);
+            }
+        }
+    }
+}

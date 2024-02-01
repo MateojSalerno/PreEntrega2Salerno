@@ -4,3 +4,15 @@
     margin: 0;
     padding: 0;
 }
+
+.titulosGenerales{
+    @include flexbox;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    h1{
+        font-size: 70px;
+        font-family:$tipografiaPrincipal ;
+        
+    }
+}
